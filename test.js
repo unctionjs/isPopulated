@@ -1,13 +1,76 @@
-/* eslint-disable flowtype/require-parameter-type, flowtype/require-return-type */
+/* eslint-disable flowtype/require-parameter-type, flowtype/require-return-type, no-undefined */
 import {test} from "tap"
 
-import tempLate from "./"
+import isPopulated from "./"
 
-test(({same, end}) => {
-  same(
-    tempLate(true),
-    false
-  )
+test(({equal, end}) => {
+  equal(isPopulated(["a"]), true)
+
+  end()
+})
+
+test(({equal, end}) => {
+  equal(isPopulated("a"), true)
+
+  end()
+})
+
+test(({equal, end}) => {
+  equal(isPopulated([[]]), true)
+
+  end()
+})
+
+test(({equal, end}) => {
+  equal(isPopulated([{}]), true)
+
+  end()
+})
+
+test(({equal, end}) => {
+  equal(isPopulated([]), false)
+
+  end()
+})
+
+test(({equal, end}) => {
+  equal(isPopulated({}), false)
+
+  end()
+})
+
+test(({equal, end}) => {
+  equal(isPopulated(""), false)
+
+  end()
+})
+
+test(({equal, end}) => {
+  equal(isPopulated(undefined), false)
+
+  end()
+})
+
+test(({equal, end}) => {
+  equal(isPopulated(null), false)
+
+  end()
+})
+
+test(({equal, end}) => {
+  equal(isPopulated([undefined]), true)
+
+  end()
+})
+
+test(({equal, end}) => {
+  equal(isPopulated([undefined]), true)
+
+  end()
+})
+
+test(({equal, end}) => {
+  equal(isPopulated([null]), true)
 
   end()
 })

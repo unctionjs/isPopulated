@@ -1,7 +1,7 @@
 /* eslint-disable flowtype/require-parameter-type, flowtype/require-return-type, no-undefined */
 import {test} from "tap"
 
-import isObject from "./source"
+import isPopulated from "./source"
 
 test(({equal, end}) => {
   equal(isPopulated(["a"]), true)

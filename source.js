@@ -1,14 +1,7 @@
 /* eslint-disable no-magic-numbers */
 import isPresent from "@unction/ispresent"
+import length from "@unction/length"
 
-export default function isPopulated (value: mixed): boolean {
-  if (isPresent(value)) {
-    if (value.length) {
-      return value.length !== 0
-    }
-
-    return Object.keys(value).length !== 0
-  }
-
-  return false
+export default function isPopulated (functor: IterableType): boolean {
+  return isPresent(functor) && length(functor) !== 0
 }

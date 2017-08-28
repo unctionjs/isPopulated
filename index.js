@@ -2,6 +2,6 @@
 import isPresent from "@unction/ispresent"
 import length from "@unction/length"
 
-export default function isPopulated (functor: IterableType): boolean {
+export default function isPopulated (functor: FunctorType): boolean {
   return isPresent(functor) && length(functor) !== 0
 }

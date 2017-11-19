@@ -58,7 +58,7 @@
   },
   "dependencies": {
     "@unction/ispresent": "2.6.0",
-    "@unction/length": "1.35.0"
+    "@unction/length": "1.36.0"
   },
   "files": [
     "transpiled/index.js"

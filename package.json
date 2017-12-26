@@ -59,8 +59,8 @@
     "tap": "11.0.0"
   },
   "dependencies": {
-    "@unction/ispresent": "2.8.0",
-    "@unction/length": "1.47.0"
+    "@unction/ispresent": "3.0.0",
+    "@unction/length": "2.0.0"
   },
   "files": [
     "transpiled/index.js"

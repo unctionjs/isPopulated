@@ -5,7 +5,7 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> FunctorType -> boolean
+> FunctorType => boolean
 
 Allows you to check if a iterable has any items.
 

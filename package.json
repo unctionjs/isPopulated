@@ -60,7 +60,7 @@
   },
   "dependencies": {
     "@unction/ispresent": "3.0.0",
-    "@unction/length": "7.0.0"
+    "@unction/length": "9.0.0"
   },
   "files": [
     "transpiled/index.js"

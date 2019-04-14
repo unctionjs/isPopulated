@@ -17,7 +17,7 @@
   "homepage": "https://github.com/unctionjs/isPopulated#readme",
   "repository": "github:unctionjs/isPopulated",
   "bugs": "https://github.com/unctionjs/isPopulated/issues",
-  "main": "transpiled/main.js",
+  "main": "main.js",
   "nyc": {
     "require": [
       "@babel/register"
@@ -69,5 +69,5 @@
     "browser.js.map"
   ],
   "module": "index.js",
-  "browser": "transpiled/browser.js"
+  "browser": "browser.js"
 }

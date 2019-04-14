@@ -1,76 +1,76 @@
 /* eslint-disable no-undefined */
-import {test} from "tap"
+import {test} from "tap";
 
-import isPopulated from "./index"
-
-test(({equal, end}) => {
-  equal(isPopulated(["a"]), true)
-
-  end()
-})
+import isPopulated from "./index";
 
 test(({equal, end}) => {
-  equal(isPopulated("a"), true)
+  equal(isPopulated(["a"]), true);
 
-  end()
-})
-
-test(({equal, end}) => {
-  equal(isPopulated([[]]), true)
-
-  end()
-})
+  end();
+});
 
 test(({equal, end}) => {
-  equal(isPopulated([{}]), true)
+  equal(isPopulated("a"), true);
 
-  end()
-})
-
-test(({equal, end}) => {
-  equal(isPopulated([]), false)
-
-  end()
-})
+  end();
+});
 
 test(({equal, end}) => {
-  equal(isPopulated({}), false)
+  equal(isPopulated([[]]), true);
 
-  end()
-})
-
-test(({equal, end}) => {
-  equal(isPopulated(""), false)
-
-  end()
-})
+  end();
+});
 
 test(({equal, end}) => {
-  equal(isPopulated(undefined), false)
+  equal(isPopulated([{}]), true);
 
-  end()
-})
-
-test(({equal, end}) => {
-  equal(isPopulated(null), false)
-
-  end()
-})
+  end();
+});
 
 test(({equal, end}) => {
-  equal(isPopulated([undefined]), true)
+  equal(isPopulated([]), false);
 
-  end()
-})
-
-test(({equal, end}) => {
-  equal(isPopulated([undefined]), true)
-
-  end()
-})
+  end();
+});
 
 test(({equal, end}) => {
-  equal(isPopulated([null]), true)
+  equal(isPopulated({}), false);
 
-  end()
-})
+  end();
+});
+
+test(({equal, end}) => {
+  equal(isPopulated(""), false);
+
+  end();
+});
+
+test(({equal, end}) => {
+  equal(isPopulated(undefined), false);
+
+  end();
+});
+
+test(({equal, end}) => {
+  equal(isPopulated(null), false);
+
+  end();
+});
+
+test(({equal, end}) => {
+  equal(isPopulated([undefined]), true);
+
+  end();
+});
+
+test(({equal, end}) => {
+  equal(isPopulated([undefined]), true);
+
+  end();
+});
+
+test(({equal, end}) => {
+  equal(isPopulated([null]), true);
+
+  end();
+});

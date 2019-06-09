@@ -58,8 +58,8 @@
     "tap": "12.6.1"
   },
   "dependencies": {
-    "@unction/ispresent": "4.0.0",
-    "@unction/length": "10.1.0",
+    "@unction/ispresent": "4.0.1",
+    "@unction/length": "10.2.0",
     "core-js": "3.0.1"
   },
   "files": [

@@ -1,7 +1,7 @@
 /* eslint-disable no-undefined */
 import {test} from "tap";
 
-import isPopulated from "./index";
+import isPopulated from "./";
 
 test(({equal, end}) => {
   equal(isPopulated(["a"]), true);

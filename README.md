@@ -4,9 +4,9 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> FunctorType => boolean
+> EnumerableType<A> => boolean
 
-Allows you to check if a iterable has any items.
+Allows you to check if a enumerable has any items.
 
 ``` javascript
 isPopulated([1]) // true

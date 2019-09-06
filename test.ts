@@ -1,50 +1,50 @@
 /* eslint-disable no-undefined */
 import isPopulated from "./index";
 
-test(() => {
+test("works", () => {
   expect(isPopulated(["a"])).toBe(true);
 });
 
-test(() => {
+test("works", () => {
   expect(isPopulated("a")).toBe(true);
 });
 
-test(() => {
+test("works", () => {
   expect(isPopulated([[]])).toBe(true);
 });
 
-test(() => {
+test("works", () => {
   expect(isPopulated([{}])).toBe(true);
 });
 
-test(() => {
+test("works", () => {
   expect(isPopulated([])).toBe(false);
 });
 
-test(() => {
+test("works", () => {
   expect(isPopulated({})).toBe(false);
 });
 
-test(() => {
+test("works", () => {
   expect(isPopulated("")).toBe(false);
 });
 
-test(() => {
+test("works", () => {
   expect(isPopulated(undefined)).toBe(false);
 });
 
-test(() => {
+test("works", () => {
   expect(isPopulated(null)).toBe(false);
 });
 
-test(() => {
+test("works", () => {
   expect(isPopulated([undefined])).toBe(true);
 });
 
-test(() => {
+test("works", () => {
   expect(isPopulated([undefined])).toBe(true);
 });
 
-test(() => {
+test("works", () => {
   expect(isPopulated([null])).toBe(true);
 });

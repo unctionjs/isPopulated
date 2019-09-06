@@ -1,5 +1,5 @@
 /* eslint-disable no-undefined */
-import isPopulated from "./index.ts";
+import isPopulated from "./index";
 
 test(() => {
   expect(isPopulated(["a"])).toBe(true);

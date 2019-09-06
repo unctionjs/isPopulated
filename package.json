@@ -54,7 +54,7 @@
   },
   "dependencies": {
     "@unction/ispresent": "4.1.1",
-    "@unction/length": "10.6.0"
+    "@unction/length": "10.7.0"
   },
   "files": [
     "index.ts",

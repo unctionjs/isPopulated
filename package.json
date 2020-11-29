@@ -61,6 +61,6 @@
   },
   "dependencies": {
     "@unction/ispresent": "^4.1.4",
-    "@unction/length": "^10.11.0"
+    "@unction/length": "^10.12.0"
   }
 }

@@ -4,7 +4,7 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> EnumerableType<A> => boolean
+> Array<A> | Set<A> | RecordType<unknown, A> | string => boolean
 
 Allows you to check if a enumerable has any items.
 
